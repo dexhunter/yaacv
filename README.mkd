@@ -1,0 +1,5 @@
+## Yet Another Academic Curriculum Vitae
+
+To make it simple, I did not use `.cls`. But I do use `bibentry` to manage papers (however, I do not have much yet). I am going to apply for PhD later and I think a good CV is a plus. If there are any problems, feel free to open an issue or make a pull request (PR).
+
+Good luck!
