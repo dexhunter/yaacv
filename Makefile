@@ -4,4 +4,4 @@ pdf:
 	pdflatex cv
 	pdflatex cv
 clean:
-	rm cv.aux cv.bbl cv.blg cv.out texput.log cv.log
+	rm *.aux *.blg *.out *.log *.xref *.4ct *.4tc *.bbl *.pdf
