@@ -6,4 +6,4 @@ Good luck!
 
 ---
 
-The example pdf is [cv](cv.pdf). And you can quickly make the pdf by typing `make pdf` into command line.
+The example pdf is at [releases](https://github.com/dexhunter/yaacv/releases). And you can quickly make the pdf by typing `make pdf` into command line.
