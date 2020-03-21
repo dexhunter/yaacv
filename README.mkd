@@ -6,4 +6,26 @@ Good luck!
 
 ---
 
-The example pdf is at [releases](https://github.com/dexhunter/yaacv/releases). And you can quickly make the pdf by typing `make pdf` into command line.
+### Usage
+
+For Ubuntu user,
+
+```bash
+$ sudo apt-get install texlive-base texlive texlive-latex-extra
+```
+
+For Arch Linux user,
+
+```bash
+$ sudo pacman -S texlive-most
+```
+
+Then just run
+
+```bash
+$ make pdf
+```
+
+The pdf file will be generated. The example pdf is at [releases](https://github.com/dexhunter/yaacv/releases).
+
+If there are any issues, please report at [issues](https://github.com/dexhunter/yaacv/issues)
