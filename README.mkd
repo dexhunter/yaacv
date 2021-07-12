@@ -6,6 +6,12 @@ Good luck!
 
 ---
 
+### Features
+
+* Sort by time (Newest first)
+* Suitable for both academic & industry
+* Use bibtex to manage papers
+
 ### Usage
 
 For Ubuntu user,
