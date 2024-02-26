@@ -18,7 +18,7 @@
 \usepackage{bibentry}
 \usepackage{hyperref}
 \usepackage{xcolor}
-
+\usepackage{enumitem}
 
 \hypersetup{
     colorlinks  = true,
@@ -31,38 +31,48 @@
 \begin{document}
 
 \begin{minipage}[t]{0.65\textwidth}
-    {\Huge Dixing \textbf{XU}}
-    % {\Huge Dixing \textbf{XU}} \\
-    % Visiting Student Researcher \\
-    % Zhejiang University\\
+    {\Huge Dixing {\textbf{\textcolor{black}{XU}}}}
 \end{minipage}
 \begin{minipage}[t]{0.45\textwidth}
     {\small\raggedright
-    Email: \href{mailto:dixingxu@gmail.com}{dixingxu@gmail.com} \\
-    Web: \href{https://blog.dex.moe}{https://blog.dex.moe} \\
+    \begin{tabular}{l@{: }l}
+    Email & \href{mailto:dixingxu@gmail.com}{dixingxu@gmail.com} \\
+    Web & \href{https://blog.dex.moe}{https://blog.dex.moe} \\
+    \end{tabular}\\
     (Last update: \today)
     }
 \end{minipage}
 
-% Adding a professional summary
+\vspace{20mm} % Adjust the space as needed 
+
+%
+% Section: Professional Summary
+%
 \section*{\centering\underline{PROFESSIONAL SUMMARY}}
 \begin{itemize}[noitemsep, nolistsep]
     \item[] Experienced Computer Science researcher with a strong background in distributed machine learning systems, blockchain technologies, and collaborative learning. Proven track record in academia and industry with multiple publications and contributions to significant projects. Looking to leverage my technical expertise and research skills in a challenging environment.
 \end{itemize}
+\vspace{20mm} % Adjust the space as needed 
 
+% -----------------------
+% Section: Education
+%
 \section*{\centering\underline{EDUCATION}}
+% \large \item[2020] \textbf{University of Liverpool} \hfill Liverpool, UK
+%     \begin{itemize}[noitemsep, nolistsep]
+%         \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
+%     \end{itemize} 
+\noindent\textit{2020} \large\textbf{Xi'an Jiaotong-Liverpool University \& University of Liverpool} \hfill Suzhou, China
 \begin{itemize}[noitemsep, nolistsep]
-    % \large \item[2020] \textbf{University of Liverpool} \hfill Liverpool, UK
-    %     \begin{itemize}[noitemsep, nolistsep]
-    %         \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
-    %     \end{itemize} 
-    \item[2020] \large\textbf{Xi'an Jiaotong-Liverpool University \& University of Liverpool} \hfill Suzhou, China
-        \begin{itemize}[noitemsep, nolistsep]
-            \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
-        \end{itemize} 
-\end{itemize}
+    \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
+\end{itemize} 
+\vspace{20mm} % Adjust the space as needed 
 
+% -----------------------
+% Section: Work
+% 
 \section*{\centering\underline{WORK EXPERIENCE}}
+% Subsection: Academia
 \subsection*{\centering{Academia}}
 \begin{itemize}[leftmargin=0em, noitemsep, nolistsep]
     \setlength\itemsep{1em}
@@ -112,12 +122,13 @@
             \end{itemize}
         \end{itemize} 
 \end{itemize}
+% Subsection: Industry
 \subsection*{\centering{Industry}}
 \begin{itemize}[leftmargin=0em, noitemsep, nolistsep]
     \setlength\itemsep{1em}
     \item[] \large\textbf{HexTrust} \hfill Hong Kong
     \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-        \item[] {Developer} \hfill \textit{2022.04-PRESENT}
+        \item[] {Software Development Engineer} \hfill \textit{2022.04-PRESENT}
          \begin{itemize}
             \small
             \item[--] HexAdmin Backend Development (Golang)
@@ -168,51 +179,60 @@
              \end{itemize}
         \end{itemize}
 \end{itemize}
+\vspace{20mm} % Adjust the space as needed 
 
+
+% -----------------------
+% Section: Honors & Awards
+%
 \section*{\centering\underline{HONORS \& AWARDS}}
-\begin{itemize}[noitemsep, nolistsep]
-    \item[\textit{2019.12}]\textbf{Hyperledger Diversity Scholarship}
-    \item[\textit{2018.09}]\textbf{CNCF Diversity Scholarship}
-    \item[\textit{2018.09}]\textbf{Special Prize (US\$10,000) by QTUM, Wanxiang Blockchain Hackathon} \href{https://github.com/PRIEWIENV/QtumSwap}{\textcolor{blue}{[Source Code]}}
-        \begin{itemize}[noitemsep, nolistsep]
-            \small
-            \item Awarded to only 1 of more than 20 groups all over the world. 
-            \item Implemented atomic swaps between BTC/ERC20/any contract call and QTUM.
-        \end{itemize} 
-    \item[\textit{2018.07}]\textbf{1st Prize, 2018 EOS Hackathon Hangzhou (Team)} \href{https://github.com/Acappella-dream}{\textcolor{blue}{[Source Code]}}
-    \item[\textit{2018.07}]\textbf{3rd Prize, 2018 EOS Hackathon Hangzhou (Personal)}
-    \item[\textit{2018.07}]\textbf{3rd Prize, DoraHacks x BCH Faith Hack}
-    \item[\textit{2018.06}]\textbf{2nd Prize, 2018 XJTLU \& PNP AI Innovation Hackathon}
-    \item[\textit{2018.04}]\textbf{2017 IBM Student Innovation Lab Program Award}
-    \item[\textit{2017.11}]\textbf{1st Prize, Hack x FDU 2017 Hackathon} \href{https://github.com/dexhunter/hackxfdu-DSharing}{\textcolor{blue}{[Source Code]}}
-        \begin{itemize}[noitemsep, nolistsep]
-            \small
-            \item Awarded to the top 1 of more than 70 groups from colleges nationwide. \href{https://archive.is/FzYVh}{\textcolor{blue}{[Media(CN)]}}
-            \item Built a decentralized P2P leasing system using blockchain. 
-        \end{itemize} 
-\end{itemize}
+\noindent\textit{2019.12} \textbf{Hyperledger Diversity Scholarship}\\
+\noindent\textit{2018.09} \textbf{CNCF Diversity Scholarship}\\
+\noindent\textit{2018.09} \textbf{Special Prize (US\$10,000) by QTUM, Wanxiang Blockchain Hackathon} \href{https://github.com/PRIEWIENV/QtumSwap}{\textcolor{blue}{[Source Code]}}
+    \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, leftmargin=5em, parsep=0pt]
+        \item Awarded to only 1 of more than 20 groups all over the world.
+        \item Implemented atomic swaps between BTC/ERC20/any contract call and QTUM.
+    \end{itemize}
+\noindent\textit{2018.07} \textbf{1st Prize, 2018 EOS Hackathon Hangzhou (Team)} \href{https://github.com/Acappella-dream}{\textcolor{blue}{[Source Code]}}\\
+\noindent\textit{2018.07} \textbf{3rd Prize, 2018 EOS Hackathon Hangzhou (Personal)}\\
+\noindent\textit{2018.07} \textbf{3rd Prize, DoraHacks x BCH Faith Hack}\\
+\noindent\textit{2018.06} \textbf{2nd Prize, 2018 XJTLU \& PNP AI Innovation Hackathon}\\
+\noindent\textit{2018.04} \textbf{2017 IBM Student Innovation Lab Program Award}\\
+\noindent\textit{2017.11} \textbf{1st Prize, Hack x FDU 2017 Hackathon} \href{https://github.com/dexhunter/hackxfdu-DSharing}{\textcolor{blue}{[Source Code]}}
+    \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, leftmargin=5em, parsep=0pt]
+        \item Awarded to the top 1 of more than 70 groups from colleges nationwide. \href{https://archive.is/FzYVh}{\textcolor{blue}{[Media(CN)]}}
+        \item Built a decentralized P2P leasing system using blockchain. 
+    \end{itemize} 
+\vspace{20mm} % Adjust the space as needed 
 
+
+% -----------------------
+% Section: Publications
+%
 \bibliographystyle{unsrt}
 \nobibliography{ref}
 
 \section*{\centering\underline{PUBLICATIONS}}
 % \subsection*{\centering{Conference}}
-\begin{itemize}
-    \item[\textit{2019}] \bibentry{zheng2019challenges}
-    \item[\textit{2020}] \bibentry{xu2020lightweight}
-\end{itemize}
-\section*{\centering\underline{MANUSCRIPTS}}
-\begin{itemize}
-    \item[\textit{2017}] \bibentry{jiang2017deep}
-\end{itemize}
+\noindent\textit{2020} \bibentry{xu2020lightweight}\\[5mm] % Adjust the space as needed
+\noindent\textit{2019} \bibentry{zheng2019challenges}
+\vspace{20mm} % Adjust the space as needed 
 
+% ----------------------- 
+% Section: Manuscripts
+%
+\section*{\centering\underline{MANUSCRIPTS}}
+\noindent\textit{2017} \bibentry{jiang2017deep}
+\vspace{20mm} % Adjust the space as needed 
+
+% -----------------------
+% Section: Services
+%
 \section*{\centering\underline{SERVICES}}
-\begin{itemize}
-    \item[] \textbf{Student Member}, IEEE Computer Society (IEEE)
-    \item[] \textbf{Reviewer}:
-        \begin{itemize}[noitemsep, nolistsep]
-            \item[$\circ$] IEEE Internet of Things Journal
-        \end{itemize}
+\noindent\textbf{Student Member}, IEEE Computer Society (IEEE)\\
+\noindent\textbf{Reviewer}:
+\begin{itemize}[noitemsep, nolistsep]
+    \item[$\circ$] IEEE Internet of Things Journal
 \end{itemize}
 
 \end{document}

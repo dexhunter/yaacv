@@ -5,3 +5,5 @@ pdf:
 	pdflatex cv
 clean:
 	rm *.aux *.blg *.out *.log *.xref *.4ct *.4tc *.bbl *.pdf
+luapdf:
+	lualatex cv.tex
