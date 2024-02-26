@@ -7,7 +7,18 @@
 % custom header
 % \usepackage{fancyhdr}
 % hyperlinks
+\usepackage{url}
+
+% \setlength\parindent{0cm}
+\usepackage{enumitem}
+
+\usepackage[margin=5em, top=6em, bottom=5em]{geometry}
+\geometry{letterpaper}
+\usepackage{natbib}
+\usepackage{bibentry}
 \usepackage{hyperref}
+\usepackage{xcolor}
+
 
 \hypersetup{
     colorlinks  = true,
@@ -17,17 +28,7 @@
     pdftitle    = {Dixing Xu: Curriculum Vitae},
 }
 
-% \setlength\parindent{0cm}
-
-\usepackage{enumitem}
-
-\usepackage[margin=5em, top=6em, bottom=5em]{geometry}
-\geometry{letterpaper}
-
-\usepackage{natbib, bibentry}
-
 \begin{document}
-
 
 \begin{minipage}[t]{0.65\textwidth}
     {\Huge Dixing \textbf{XU}}
@@ -43,6 +44,11 @@
     }
 \end{minipage}
 
+% Adding a professional summary
+\section*{\centering\underline{PROFESSIONAL SUMMARY}}
+\begin{itemize}[noitemsep, nolistsep]
+    \item[] Experienced Computer Science researcher with a strong background in distributed machine learning systems, blockchain technologies, and collaborative learning. Proven track record in academia and industry with multiple publications and contributions to significant projects. Looking to leverage my technical expertise and research skills in a challenging environment.
+\end{itemize}
 
 \section*{\centering\underline{EDUCATION}}
 \begin{itemize}[noitemsep, nolistsep]
@@ -62,7 +68,7 @@
     \setlength\itemsep{1em}
     \item[] \large\textbf{Hong Kong Baptist University} \hfill Hong Kong
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] {Research Assistant} \hfill 2020.10-2021.11
+            \item[] {Research Assistant} \hfill \textit{2020.10-2021.11}
              \begin{itemize}
                 \small
                 \item[--] Worked with \href{https://www.comp.hkbu.edu.hk/~chxw/}{Prof. Xiaowen Chu} on distributed machine learning systems and blockchain systems.
@@ -70,7 +76,7 @@
         \end{itemize} 
     \item[] \large\textbf{Zhejiang University} \hfill Hangzhou, China
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] {Visiting Student Researcher} \hfill 2019.09-2020.03
+            \item[] {Visiting Student Researcher} \hfill \textit{2019.09-2020.03}
              \begin{itemize}
                 \small
                 \item[--] Worked with \href{https://person.zju.edu.cn/en/cp}{Prof. Peng Cheng} on machine learning and security.
@@ -78,7 +84,7 @@
         \end{itemize} 
     \item[] \large\textbf{Nanyang Technological University} \hfill Singapore
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] Research Assistant \hfill 2019.03-2019.08
+            \item[] Research Assistant \hfill \textit{2019.03-2019.08}
              \begin{itemize}
                 \small
                 \item[--] Worked with \href{https://www.ntu.edu.sg/home/tanrui/}{Prof. Rui Tan} on collaborative learning, Internet of Things (IoT) and Privacy.
@@ -86,12 +92,12 @@
         \end{itemize} 
     \item[] \large\textbf{Xi'an Jiaotong-Liverpool University} \hfill Suzhou, China
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] Research Assistant \hfill 2016.11-2018.08
+            \item[] Research Assistant \hfill \textit{2016.11-2018.08}
              \begin{itemize}
                 \small
                 \item[--] Worked with \href{https://www.linkedin.com/in/kumkee}{Dr. Jinjun Liang} on Portfolio Management. \href{https://archive.is/XKqY3}{\textcolor{blue}{[Media(CN)]}}
              \end{itemize}
-            \item[] Summer Undergraduate Research Fellow \hfill 2017.06-2017.08
+            \item[] Summer Undergraduate Research Fellow \hfill \textit{2017.06-2017.08}
              \begin{itemize}
                 \small
                 \item[--] Worked with \href{https://www.xjtlu.edu.cn/en/departments/academic-departments/computer-science-and-software-engineering/staff/steven-guan}{Prof. Steven Guan} on Style Transfer Learning with Generative Adversarial Networks.
@@ -99,7 +105,7 @@
         \end{itemize} 
     \item[] \large\textbf{National University of Singapore} \hfill Singapore
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] Summer Internship \hfill 2016.06-2016.08
+            \item[] Summer Internship \hfill \textit{2016.06-2016.08}
             \begin{itemize}
                 \small
                 \item[--] Worked with \href{https://www.comp.nus.edu.sg/~leonghw/}{Prof. Hon Wei Leong} on course Computational Thinking and Community Detection in Large Graphs.
@@ -109,22 +115,23 @@
 \subsection*{\centering{Industry}}
 \begin{itemize}[leftmargin=0em, noitemsep, nolistsep]
     \setlength\itemsep{1em}
-    \item[] \large\textbf{Hex Trust} \hfill Remote/Hong Kong
+    \item[] \large\textbf{HexTrust} \hfill Hong Kong
     \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-        \item[] {Developer} \hfill 2022.04-PRESENT
+        \item[] {Developer} \hfill \textit{2022.04-PRESENT}
          \begin{itemize}
             \small
+            \item[--] HexAdmin Backend Development (Golang)
             \item[--] HTM(Markets) Backend Development (Rust)
          \end{itemize}
     \end{itemize}
     \item[] \large\textbf{The Linux Foundation} \hfill Remote
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] Software Development Engineer (Blockchain) Internship\hfill 2020.06-2020.12
+            \item[] Software Development Engineer (Blockchain) Internship\hfill \textit{2020.06-2020.12}
             \begin{itemize}
                 \small
                 \item[--] Part-time intern for Hyperledger Cello. \href{https://github.com/hyperledger/cello}{\textcolor{blue}{[Project]}}
             \end{itemize}
-            \item[] Software Development Engineer (Blockchain) Internship\hfill 2018.06-2018.11
+            \item[] Software Development Engineer (Blockchain) Internship\hfill \textit{2018.06-2018.11}
              \begin{itemize}
                 \small
                 \item[--] Part-time intern for Hyperledger Fabric Python SDK. \href{https://github.com/hyperledger/fabric-sdk-py}{\textcolor{blue}{[Project]}}
@@ -134,17 +141,17 @@
 
     \item[] \large\textbf{Hyperledger} \hfill Remote
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] Mentor \hfill 2021.03-2021.11
+            \item[] Mentor \hfill \textit{2021.03-2021.11}
             \begin{itemize}
                 \small
                 \item[--] Mentor for \textit{Support Decentralized Governance for Smart Contracts in Fabric Python SDK} \href{https://wiki.hyperledger.org/display/INTERN/Support+Decentralized+Governance+for+Smart+Contracts+in+Fabric+Python+SDK}{\textcolor{blue}{[Project]}}
             \end{itemize}
-            \item[] Mentor \hfill 2020.03-2020.11
+            \item[] Mentor \hfill \textit{2020.03-2020.11}
             \begin{itemize}
                 \small
                 \item[--] Mentor for \textit{Add interactive examples to Fabric Python SDK} \href{https://wiki.hyperledger.org/pages/viewpage.action?pageId=29035315}{\textcolor{blue}{[Project]}}
             \end{itemize}
-            \item[] Software Maintainer\hfill 2018.09-PRESENT
+            \item[] Software Maintainer\hfill \textit{2018.09-PRESENT}
              \begin{itemize}
                 \small
                 \item[--] Maintainer of Hyperledger Fabric Python SDK. \href{https://github.com/hyperledger/fabric-sdk-py}{\textcolor{blue}{[Project]}}
@@ -153,7 +160,7 @@
 
     \item[] \large\textbf{Research Institute of Beihang University} \hfill Suzhou, China
         \begin{itemize}[noitemsep, nolistsep, leftmargin=0em]
-            \item[] Software Development Engineer Internship\hfill 2018.11-2019.06
+            \item[] Software Development Engineer Internship\hfill \textit{2018.11-2019.06}
              \begin{itemize}
                 \small
                 \item[--] Develop an application based on Hyperledger Fabric.
@@ -164,20 +171,20 @@
 
 \section*{\centering\underline{HONORS \& AWARDS}}
 \begin{itemize}[noitemsep, nolistsep]
-    \item[2019.12]\textbf{Hyperledger Diversity Scholarship}
-    \item[2018.09]\textbf{CNCF Diversity Scholarship}
-    \item[2018.09]\textbf{Special Prize (US\$10,000) by QTUM, Wanxiang Blockchain Hackathon} \href{https://github.com/PRIEWIENV/QtumSwap}{\textcolor{blue}{[Source Code]}}
+    \item[\textit{2019.12}]\textbf{Hyperledger Diversity Scholarship}
+    \item[\textit{2018.09}]\textbf{CNCF Diversity Scholarship}
+    \item[\textit{2018.09}]\textbf{Special Prize (US\$10,000) by QTUM, Wanxiang Blockchain Hackathon} \href{https://github.com/PRIEWIENV/QtumSwap}{\textcolor{blue}{[Source Code]}}
         \begin{itemize}[noitemsep, nolistsep]
             \small
             \item Awarded to only 1 of more than 20 groups all over the world. 
             \item Implemented atomic swaps between BTC/ERC20/any contract call and QTUM.
         \end{itemize} 
-    \item[2018.07]\textbf{1st Prize, 2018 EOS Hackathon Hangzhou (Team)} \href{https://github.com/Acappella-dream}{\textcolor{blue}{[Source Code]}}
-    \item[2018.07]\textbf{3rd Prize, 2018 EOS Hackathon Hangzhou (Personal)}
-    \item[2018.07]\textbf{3rd Prize, DoraHacks x BCH Faith Hack}
-    \item[2018.06]\textbf{2nd Prize, 2018 XJTLU \& PNP AI Innovation Hackathon}
-    \item[2018.04]\textbf{2017 IBM Student Innovation Lab Program Award}
-    \item[2017.11]\textbf{1st Prize, Hack x FDU 2017 Hackathon} \href{https://github.com/dexhunter/hackxfdu-DSharing}{\textcolor{blue}{[Source Code]}}
+    \item[\textit{2018.07}]\textbf{1st Prize, 2018 EOS Hackathon Hangzhou (Team)} \href{https://github.com/Acappella-dream}{\textcolor{blue}{[Source Code]}}
+    \item[\textit{2018.07}]\textbf{3rd Prize, 2018 EOS Hackathon Hangzhou (Personal)}
+    \item[\textit{2018.07}]\textbf{3rd Prize, DoraHacks x BCH Faith Hack}
+    \item[\textit{2018.06}]\textbf{2nd Prize, 2018 XJTLU \& PNP AI Innovation Hackathon}
+    \item[\textit{2018.04}]\textbf{2017 IBM Student Innovation Lab Program Award}
+    \item[\textit{2017.11}]\textbf{1st Prize, Hack x FDU 2017 Hackathon} \href{https://github.com/dexhunter/hackxfdu-DSharing}{\textcolor{blue}{[Source Code]}}
         \begin{itemize}[noitemsep, nolistsep]
             \small
             \item Awarded to the top 1 of more than 70 groups from colleges nationwide. \href{https://archive.is/FzYVh}{\textcolor{blue}{[Media(CN)]}}
@@ -185,19 +192,18 @@
         \end{itemize} 
 \end{itemize}
 
-
-\nobibliography{ref}
 \bibliographystyle{unsrt}
+\nobibliography{ref}
 
 \section*{\centering\underline{PUBLICATIONS}}
 % \subsection*{\centering{Conference}}
 \begin{itemize}
-    \item[2019] \bibentry{zheng2019challenges}
-    \item[2020] \bibentry{xu2020lightweight}
+    \item[\textit{2019}] \bibentry{zheng2019challenges}
+    \item[\textit{2020}] \bibentry{xu2020lightweight}
 \end{itemize}
 \section*{\centering\underline{MANUSCRIPTS}}
 \begin{itemize}
-    \item[2017] \bibentry{jiang2017deep}
+    \item[\textit{2017}] \bibentry{jiang2017deep}
 \end{itemize}
 
 \section*{\centering\underline{SERVICES}}
