@@ -16,7 +16,9 @@
 \geometry{letterpaper}
 \usepackage{natbib}
 \usepackage{bibentry}
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
 \usepackage{hyperref}
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
 \usepackage{xcolor}
 \usepackage{enumitem}
 
@@ -45,28 +47,28 @@
 
 % \vspace{20mm} % Adjust the space as needed 
 
-% %
-% % Section: Professional Summary
-% %
-% \section*{\centering\underline{PROFESSIONAL SUMMARY}}
-% \begin{itemize}[noitemsep, nolistsep]
-%     \item[] Experienced Computer Science researcher with a strong background in distributed machine learning systems, blockchain technologies, and collaborative learning. Proven track record in academia and industry with multiple publications and contributions to significant projects. Looking to leverage my technical expertise and research skills in a challenging environment.
-% \end{itemize}
-% \vspace{20mm} % Adjust the space as needed 
+%
+% Section: Professional Summary
+%
+\section*{\centering\underline{PROFESSIONAL SUMMARY}}
+\begin{itemize}[noitemsep, nolistsep]
+    \item[] Experienced Computer Science researcher with a strong background in distributed machine learning systems, blockchain technologies, and collaborative learning. Proven track record in academia and industry with multiple publications and contributions to significant projects. Looking to leverage my technical expertise and research skills in a challenging environment.
+\end{itemize}
+\vspace{20mm} % Adjust the space as needed 
 
 % -----------------------
 % Section: Education
-%
-\section*{\centering\underline{EDUCATION}}
-% \large \item[2020] \textbf{University of Liverpool} \hfill Liverpool, UK
-%     \begin{itemize}[noitemsep, nolistsep]
-%         \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
-%     \end{itemize} 
-\noindent\textit{2020} \large\textbf{Xi'an Jiaotong-Liverpool University \& University of Liverpool} \hfill Suzhou, China
-\begin{itemize}[noitemsep, nolistsep]
-    \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
-\end{itemize} 
-\vspace{20mm} % Adjust the space as needed 
+% %
+% \section*{\centering\underline{EDUCATION}}
+% % \large \item[2020] \textbf{University of Liverpool} \hfill Liverpool, UK
+% %     \begin{itemize}[noitemsep, nolistsep]
+% %         \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
+% %     \end{itemize} 
+% \noindent\textit{2020} \large\textbf{Xi'an Jiaotong-Liverpool University \& University of Liverpool} \hfill Suzhou, China
+% \begin{itemize}[noitemsep, nolistsep]
+%     \item[] \textit{BSc (Hons) Information and Computing Sciences (2:1)}
+% \end{itemize} 
+% \vspace{20mm} % Adjust the space as needed 
 
 % -----------------------
 % Section: Work
@@ -214,15 +216,15 @@
 
 \section*{\centering\underline{PUBLICATIONS}}
 % \subsection*{\centering{Conference}}
-\noindent\textit{2020} \bibentry{xu2020lightweight}\\[5mm] % Adjust the space as needed
-\noindent\textit{2019} \bibentry{zheng2019challenges}
+\noindent\textit{2020} \begin{NoHyper}\bibentry{xu2020lightweight}\end{NoHyper}\\[5mm] % Adjust the space as needed
+\noindent\textit{2019} \begin{NoHyper}\bibentry{zheng2019challenges}\end{NoHyper}
 \vspace{20mm} % Adjust the space as needed 
 
 % ----------------------- 
 % Section: Manuscripts
 %
 \section*{\centering\underline{MANUSCRIPTS}}
-\noindent\textit{2017} \bibentry{jiang2017deep}
+\noindent\textit{2017} \begin{NoHyper}\bibentry{jiang2017deep}\end{NoHyper}
 \vspace{20mm} % Adjust the space as needed 
 
 % -----------------------
