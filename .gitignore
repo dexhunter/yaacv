@@ -11,6 +11,9 @@
 *.cb
 *.cb2
 .*.lb
+*.xml
+*.html
+*.css
 
 ## Intermediate documents:
 *.dvi
