@@ -8,5 +8,4 @@ clean:
 luapdf:
 	lualatex cv.tex
 html:
-	make pdf
-	make4ht cv.tex
+	make4ht -c cv.cfg cv.tex
