@@ -1,6 +1,6 @@
 ## Yet Another Academic Curriculum Vitae
 
-To make it simple, I did not use `.cls`. But I do use `bibentry` to manage papers (however, I do not have much yet). I am going to apply for PhD later and I think a good CV is a plus. If there are any problems, feel free to open an issue or make a pull request (PR).
+To make it simple, I did not use `.cls`. But I do use `bibentry` to manage papers. If there are any problems, feel free to open an issue or make a pull request (PR).
 
 Good luck!
 
@@ -23,7 +23,7 @@ $ sudo apt-get install texlive-base texlive texlive-latex-extra
 For Arch Linux user,
 
 ```bash
-$ sudo pacman -S texlive-most
+$ sudo pacman -S texlive-basic texlive-latex texlive-latexrecommended texlive-latexextra
 ```
 
 Then just run
